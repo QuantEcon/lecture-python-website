@@ -1,0 +1,19 @@
+title: Quantitative Economics with Python
+description: A set of lectures on quantitative economic modeling, designed and written by Thomas J. Sargent and John Stachurski.
+keywords: Python, QuantEcon, Quantitative Economics, Economics, Sloan, Alfred P. Sloan Foundation, Tom J. Sargent, John Stachurski
+
+timezone: Australia/Sydney
+google_analytics: UA-54984338-7
+
+baseurl: /
+
+sass:
+  sass_dir: /assets/sass
+  style: :compressed
+
+repository:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle

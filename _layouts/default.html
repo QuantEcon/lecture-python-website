@@ -1,0 +1,118 @@
+{% if page.title %} {% assign page_title = page.title | append: " &ndash; " |
+append: site.title %} {% else %} {% assign page_title = site.title %} {% endif
+%}
+<html lang="en">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.google_analytics }}');
+    </script>
+
+    <meta charset="utf-8" />
+
+    <title>{{ page_title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="QuantEcon" />
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@quantecon" />
+    <meta name="twitter:title" content="{{ page_title }}" />
+    <meta name="twitter:description" content="{{ site.description }}" />
+    <meta name="twitter:creator" content="@quantecon" />
+    <meta
+      name="twitter:image"
+      content="https://assets.quantecon.org/img/qe-twitter-logo.png"
+    />
+    <meta property="og:title" content="{{ page_title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://python.quantecon.org/index.html" />
+    <meta
+      property="og:image"
+      content="https://assets.quantecon.org/img/qe-og-logo.png"
+    />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
+    <link
+      rel="stylesheet"
+      href="https://assets.quantecon.org/css/menubar-20191108.css"
+    />
+    <link
+      rel="icon"
+      href="{{ '/assets/img/favicon.ico' | relative_url }}"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    {% include quantecon-menubar.html %}
+
+    <div class="wrapper">
+      <header class="header">
+        <div class="branding">
+          <p class="site-title">
+            <a href="/">Quantitative Economics with Python</a>
+          </p>
+
+          <p class="sr-only"><a href="#skip">Skip to content</a></p>
+
+          <ul class="site-authors">
+            <li><a href="http://www.tomsargent.com/">Thomas J. Sargent</a></li>
+            <li><a href="http://johnstachurski.net/">John Stachurski</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="main">
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <p class="logo">
+          <a href="https://quantecon.org/"
+            ><img src="//assets.quantecon.org/img/qe-og-logo.png"
+          /></a>
+        </p>
+
+        <p>
+          <a
+            rel="license"
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            ><img
+              alt="Creative Commons License"
+              src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+          /></a>
+        </p>
+
+        <p>
+          This work is licensed under a
+          <a
+            rel="license"
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            >Creative Commons Attribution-ShareAlike 4.0 International</a
+          >.
+        </p>
+
+        <p>
+          &copy; Copyright 2020, Thomas J. Sargent and John Stachurski. Created
+          using <a href="https://jupinx.quantecon.org/">Jupinx</a>, hosted with
+          <a href="https://aws.amazon.com/">AWS</a>.
+        </p>
+      </footer>
+    </div>
+
+    <script src="https://assets.quantecon.org/js/menubar-20191106.js"></script>
+  </body>
+</html>
