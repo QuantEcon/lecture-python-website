@@ -1,0 +1,6 @@
+.prettierignore
+_site/
+_site/*
+.DS_Store
+.jekyll-cache/
+.jekyll-cache/*

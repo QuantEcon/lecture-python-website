@@ -1,0 +1,265 @@
+/* landing.css v1.0 */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+  color: #444;
+  background: #b8bac3;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.7em;
+}
+h3 {
+  font-size: 1.4em;
+}
+h4 {
+  font-size: 1.2em;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #0072bc;
+  text-decoration: none;
+  transition: all 0.15s linear;
+  overflow-wrap: break-word;
+}
+a:link {
+}
+a:hover {
+  color: #004979;
+  text-decoration: underline;
+}
+a:active {
+}
+a:visited {
+  /* color: #004979; */
+}
+
+.wrapper {
+  width: 1024px;
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
+  margin: 20px auto 23px auto;
+  position: relative;
+  background: #fff;
+}
+
+.main {
+  padding: 2rem 4rem;
+  position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background: #23262c;
+  color: #fff;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.branding {
+  background: url(/lectures-logo.png) no-repeat left center;
+  background-size: 75px;
+  padding: 0 0 0 90px;
+  min-height: 75px;
+}
+
+.site-title {
+  font-size: 1.5em;
+  margin: 0 0 15px 0;
+  line-height: 1;
+}
+.site-title a {
+  color: #fff;
+  text-decoration: none;
+}
+.site-title a span {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.site-authors {
+  list-style: none;
+  padding: 0 0 0 5px;
+  margin: 0;
+  font-size: 0.9em;
+}
+.site-authors li {
+  display: inline-block;
+  margin: 0 1rem 0 0;
+}
+.site-authors li a {
+  color: #fff;
+  text-decoration: none;
+}
+.site-authors li a:hover {
+  text-decoration: underline;
+}
+
+/* Homepage */
+
+.home-intro {
+  padding: 0 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #888;
+}
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+.options li {
+  margin: 0 1rem;
+}
+.sponsors {
+  list-style: none;
+  padding: 0;
+  margin: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sponsors li {
+  margin: 0 2rem;
+  padding: 0;
+}
+
+.series {
+  list-style: none;
+  padding: 0;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.series li {
+  width: 30%;
+  min-height: 100px;
+}
+.series li a {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #23262c;
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  color: #23262c;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.series li a:hover {
+  background-color: #23262c;
+  color: #fff;
+  text-decoration: none;
+}
+.series li a svg {
+  margin: 0 0 15px 0;
+  display: block;
+  height: 40px;
+}
+.series li a:hover svg g {
+  fill: #fff;
+}
+
+/* Footer */
+
+.footer {
+  font-size: 0.8em;
+  color: #898989;
+  background: #f0f0f0;
+  border-top: 1px dashed #bfbfbf;
+  position: relative;
+  padding: 2rem 4rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.footer a {
+  color: #898989;
+}
+.footer .logo {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  border: 1px solid #ccc;
+}
+.footer .logo img {
+  width: 140px;
+}
+
+/* Device media styles */
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    width: auto;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header,
+  .footer,
+  .main {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .home-intro {
+    padding: 0;
+  }
+  .series {
+    margin: 2rem 0;
+  }
+  .sponsors {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  .sponsors li {
+    margin: 1rem 0;
+  }
+  .series {
+    flex-direction: column;
+  }
+  .series li {
+    width: auto;
+  }
+}
