@@ -18,7 +18,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 600;
+  font-weight: 400;
 }
 h1 {
   font-size: 2em;
@@ -100,33 +100,41 @@ a:visited {
   font-size: 1.5em;
   margin: 0 0 15px 0;
   line-height: 1;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
 }
-.site-title a {
-  color: #fff;
-  text-decoration: none;
-}
-.site-title a span {
-  display: block;
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
 .site-authors {
   list-style: none;
   padding: 0 0 0 5px;
   margin: 0;
   font-size: 0.9em;
+  li {
+    display: inline-block;
+    margin: 0 1rem 0 0;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
-.site-authors li {
-  display: inline-block;
-  margin: 0 1rem 0 0;
-}
-.site-authors li a {
-  color: #fff;
-  text-decoration: none;
-}
-.site-authors li a:hover {
-  text-decoration: underline;
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  li {
+    margin: 0 0 0 2rem;
+    a {
+      color: #fff;
+    }
+  }
 }
 
 /* Homepage */
@@ -139,17 +147,6 @@ a:visited {
   font-weight: 600;
   color: #888;
 }
-.options {
-  list-style: none;
-  padding: 0;
-  margin: 2rem 0 0 0;
-  display: flex;
-  justify-content: center;
-  font-size: 1rem;
-}
-.options li {
-  margin: 0 1rem;
-}
 .sponsors {
   list-style: none;
   padding: 0;
@@ -157,10 +154,10 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.sponsors li {
-  margin: 0 2rem;
-  padding: 0;
+  li {
+    margin: 0 2rem;
+    padding: 0;
+  }
 }
 
 .series {
@@ -169,37 +166,39 @@ a:visited {
   margin: 4rem 0;
   display: flex;
   justify-content: space-around;
-}
-.series li {
-  width: 30%;
-  min-height: 100px;
-}
-.series li a {
-  display: block;
-  height: 100%;
-  box-sizing: border-box;
-  border: 1px solid #23262c;
-  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
-  padding: 2rem 1rem;
-  border-radius: 5px;
-  color: #23262c;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.series li a:hover {
-  background-color: #23262c;
-  color: #fff;
-  text-decoration: none;
-}
-.series li a svg {
-  margin: 0 0 15px 0;
-  display: block;
-  height: 40px;
-}
-.series li a:hover svg g {
-  fill: #fff;
+  li {
+    width: 30%;
+    min-height: 100px;
+    a {
+      display: block;
+      height: 100%;
+      box-sizing: border-box;
+      border: 1px solid #23262c;
+      box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.4);
+      padding: 2rem 1rem;
+      border-radius: 5px;
+      color: #23262c;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      svg {
+        margin: 0 0 15px 0;
+        display: block;
+        height: 40px;
+      }
+      &:hover {
+        background-color: #23262c;
+        color: #fff;
+        text-decoration: none;
+        svg {
+          g {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
 }
 
 /* Footer */
@@ -214,17 +213,17 @@ a:visited {
   max-width: 1024px;
   margin: 0 auto;
   box-sizing: border-box;
-}
-.footer a {
-  color: #898989;
-}
-.footer .logo {
-  float: right;
-  margin: 0 0 1rem 1rem;
-  border: 1px solid #ccc;
-}
-.footer .logo img {
-  width: 140px;
+  a {
+    color: #898989;
+  }
+  .logo {
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #ccc;
+    img {
+      width: 140px;
+    }
+  }
 }
 
 /* Device media styles */
@@ -233,6 +232,16 @@ a:visited {
   .wrapper {
     width: auto;
     margin: 0;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .options {
+    margin: 2rem 0 0 0;
+    li {
+      margin: 0 1rem;
+    }
   }
 }
 
@@ -252,14 +261,17 @@ a:visited {
   .sponsors {
     flex-direction: column;
     margin: 2rem 0;
-  }
-  .sponsors li {
-    margin: 1rem 0;
+    li {
+      margin: 1rem 0;
+    }
   }
   .series {
     flex-direction: column;
-  }
-  .series li {
-    width: auto;
+    li {
+      width: auto;
+      a {
+        height: auto;
+      }
+    }
   }
 }
