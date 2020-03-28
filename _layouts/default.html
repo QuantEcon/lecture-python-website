@@ -51,7 +51,7 @@ append: site.title %} {% else %} {% assign page_title = site.title %} {% endif
     />
     <link
       rel="icon"
-      href="{{ '/assets/img/favicon.ico' | relative_url }}"
+      href="{{ '/favicon.ico' | relative_url }}"
       type="image/x-icon"
     />
   </head>
@@ -61,7 +61,9 @@ append: site.title %} {% else %} {% assign page_title = site.title %} {% endif
 
     <div class="wrapper">
       <header class="header">
+
         <div class="branding">
+
           <p class="site-title">
             <a href="/">Quantitative Economics with Python</a>
           </p>
@@ -70,11 +72,24 @@ append: site.title %} {% else %} {% assign page_title = site.title %} {% endif
             <li><a href="http://www.tomsargent.com/">Thomas J. Sargent</a></li>
             <li><a href="http://johnstachurski.net/">John Stachurski</a></li>
           </ul>
+
         </div>
-        <ul class="options">
-          <li><a href="/about">About these lectures</a></li>
-          <li><a href="https://quantecon.org/">Visit QuantEcon</a></li>
-        </ul>
+
+        <div class="header-tools">
+
+          <div class="site-search">
+					  <script async src="https://cse.google.com/cse.js?cx=006559439261123061640:j0o7s27tvxo"></script>
+					  <div class="gcse-searchbox-only" data-resultsUrl="/search/" enableAutoComplete="true"></div>
+					  <script>window.onload = function(){ document.getElementById('gsc-i-id1').placeholder = 'Search'; };</script>
+					</div>
+
+          <ul class="options">
+            <li><a href="/about">About these lectures</a></li>
+            <li><a href="https://quantecon.org/">Visit QuantEcon</a></li>
+          </ul>
+
+        </div>
+        
       </header>
 
       <main class="main">
