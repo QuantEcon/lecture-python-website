@@ -19,7 +19,7 @@ exclude:
   - vendor/bundle
 
 # Increment to force users' browser to download new assets
-stylesheet_version: 1.2
+stylesheet_version: 1.3
 javascript_version: 1
 
 plugins:
