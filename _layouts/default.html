@@ -44,7 +44,7 @@ append: site.title %} {% else %} {% assign page_title = site.title %} {% endif
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
 
-    <link rel="stylesheet" href="{{ '/assets/main.css?v=1' | relative_url }}" />
+    <link rel="stylesheet" href="/assets/main.css?v={{ site.stylesheet_version }}" />
     <link
       rel="stylesheet"
       href="https://assets.quantecon.org/css/menubar-20191108.css"
