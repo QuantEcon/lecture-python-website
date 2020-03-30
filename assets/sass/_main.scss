@@ -135,10 +135,10 @@ a:visited {
   }
 }
 .header-tools {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 .site-search {
   display: block;
@@ -328,7 +328,6 @@ a:visited {
   .logo {
     float: right;
     margin: 0 0 1rem 1rem;
-    border: 1px solid #ccc;
     img {
       width: 140px;
     }
