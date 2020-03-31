@@ -19,8 +19,9 @@ exclude:
   - vendor/bundle
 
 # Increment to force users' browser to download new assets
+build_version: 1.0
 stylesheet_version: 1.4
-javascript_version: 1.1
+javascript_version: 1.2
 
 plugins:
   - jekyll-sitemap
