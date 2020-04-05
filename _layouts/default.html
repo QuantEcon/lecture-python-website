@@ -94,11 +94,34 @@ append: site.title %} {% else %} {% assign page_title = site.title %} {% endif
           </div>
 
           <ul class="options">
+            <li>
+              <a href="https://quantecon.org/"
+                ><span class="sr-only">Visit QuantEcon</span></a
+              >
+            </li>
             <li><a href="/about">About these lectures</a></li>
-            <li><a href="https://quantecon.org/">Visit QuantEcon</a></li>
           </ul>
         </div>
       </header>
+
+      <nav>
+        <div class="container">
+          <ul class="site-bar">
+            <li>
+              <a class="active" href="https://python.quantecon.org/">Home</a>
+            </li>
+            <li>
+              <a href="https://python-programming.quantecon.org/"
+                >Programming</a
+              >
+            </li>
+            <li><a href="https://python-intro.quantecon.org/">Intro</a></li>
+            <li>
+              <a href="https://python-advanced.quantecon.org/">Advanced</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
       <main class="main">
         {{ content }}
