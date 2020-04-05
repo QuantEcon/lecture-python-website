@@ -1,0 +1,3 @@
+Sitemap: http://python.quantecon.org/sitemap.xml
+User-agent:*
+Disallow:
