@@ -160,8 +160,8 @@ We would also like to recgonise those who co-authored lectures and code:
 [Anmol Bhandari]( http://www.bhandarianmol.com/)
 -	Co-authored [Fluctuating Interest Rates Deliver Fiscal Insurance]( https://python-advanced.quantecon.org/amss2.html)
 
-[Chase Coleman] (http://www.chasegcoleman.com/)
--	Co-authored code for [Markov Perfect Equilibrium]() markov_per
+[Chase Coleman](http://www.chasegcoleman.com/)
+-	Co-authored code for [Markov Perfect Equilibrium](https://python-intro.quantecon.org/markov_perf.html) 
 -	Co-authored [Additive and Multiplicative Functionals]( https://python-advanced.quantecon.org/additive_functionals.html) 
 -	Co-authored [Asset Pricing III: Incomplete Markets]( https://python-intro.quantecon.org/harrison_kreps.html) 
 -	Co-authored [Globalization and Cycles]( https://python-advanced.quantecon.org/matsuyama.html) 
@@ -193,8 +193,8 @@ We would also like to recgonise those who co-authored lectures and code:
 [Spencer Lyon]( http://spencerlyon.com/)
 -	Co-authored [Robustness]( https://python-advanced.quantecon.org/robustness.html)
 
-[Matthew McKay] (https://github.com/mmcky)
--	Co-authored [Parallelization] (https://python-programming.quantecon.org/parallelization.html) 
+[Matthew McKay](https://github.com/mmcky)
+-	Co-authored [Parallelization](https://python-programming.quantecon.org/parallelization.html) 
 
 [Daisuke Oyama]( http://www.oyama.e.u-tokyo.ac.jp/)
 -	Authored code for [Discrete State Dynamic Programming]( https://python-advanced.quantecon.org/discrete_dp.html) 
