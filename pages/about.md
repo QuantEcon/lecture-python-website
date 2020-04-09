@@ -163,11 +163,11 @@ We would also like to recgonise those who co-authored lectures and code:
 [Chase Coleman](http://www.chasegcoleman.com/)
 -	Co-authored code for [Markov Perfect Equilibrium](https://python-intro.quantecon.org/markov_perf.html) 
 -	Co-authored [Additive and Multiplicative Functionals]( https://python-advanced.quantecon.org/additive_functionals.html) 
--	Co-authored [Asset Pricing with Incomplete Markets]( https://python-intro.quantecon.org/harrison_kreps.html) 
+-	Co-authored  code for [Asset Pricing with Incomplete Markets]( https://python-intro.quantecon.org/harrison_kreps.html) 
 -	Co-authored [Globalization and Cycles]( https://python-advanced.quantecon.org/matsuyama.html) 
 -	Co-authored [Reverse Engineering a la Muth]( https://python-advanced.quantecon.org/muth_kalman.html) 
 -	Co-authored [Permanent Income II: LQ Techniques]( https://python-intro.quantecon.org/perm_income_cons.html) 
--	Co-authored [Robustness]( https://python-advanced.quantecon.org/robustness.html)
+-	Co-authored code for [Robustness]( https://python-advanced.quantecon.org/robustness.html)
 
 [Daniel Csaba]( http://danielcsaba.com/)
 -	Co-authored [Two Modifications of Mean-Variance Portfolio Theory]( https://python-advanced.quantecon.org/black_litterman.html)
@@ -178,7 +178,7 @@ We would also like to recgonise those who co-authored lectures and code:
 [Sebastian Graves]( https://www.sebgraves.com/)
 -	Co-authored [Ramsey Plans, Time Inconsistency, Sustainable Plans]( https://python-advanced.quantecon.org/calvo.html)
 -	Co-authored [Cattle Cycles]( https://python-advanced.quantecon.org/cattle_cycles.html) 
--	Co-authored  [Credible Government Policies in a Model of Chang]( https://python-advanced.quantecon.org/chang_credible.html) 
+-	Co-authored [Credible Government Policies in a Model of Chang]( https://python-advanced.quantecon.org/chang_credible.html) 
 -	Co-authored [Competitive Equilibria of a Model of Chang]( https://python-advanced.quantecon.org/chang_ramsey.html) 
 -	Co-authored [Growth in Dynamic Linear Economies]( https://python-advanced.quantecon.org/growth_in_dles.html)  
 -	Co-authored [IRFs in Hall Models]( https://python-advanced.quantecon.org/irfs_in_hall_model.html) 
@@ -191,7 +191,7 @@ We would also like to recgonise those who co-authored lectures and code:
 -	Co-authored [How to Pay for a War: Part 3]( https://python-advanced.quantecon.org/tax_smoothing_3.html) 
 
 [Spencer Lyon]( http://spencerlyon.com/)
--	Co-authored [Robustness]( https://python-advanced.quantecon.org/robustness.html)
+-	Co-authored code for [Robustness]( https://python-advanced.quantecon.org/robustness.html)
 
 [Matthew McKay](https://github.com/mmcky)
 -	Co-authored [Parallelization](https://python-programming.quantecon.org/parallelization.html) 
