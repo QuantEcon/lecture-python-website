@@ -177,7 +177,6 @@ We would also like to recgonise those who co-authored lectures and code:
 -	Co-authored [Fluctuating Interest Rates Deliver Fiscal Insurance]( https://python-advanced.quantecon.org/amss2.html)
 
 [Sebastian Graves]( https://www.sebgraves.com/)
-
 -	Co-authored [Cattle Cycles]( https://python-advanced.quantecon.org/cattle_cycles.html) 
 -	Co-authored [Competitive Equilibria of a Model of Chang]( https://python-advanced.quantecon.org/chang_ramsey.html) 
 -	Co-authored [Credible Government Policies in a Model of Chang]( https://python-advanced.quantecon.org/chang_credible.html) 
