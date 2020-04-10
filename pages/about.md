@@ -222,7 +222,6 @@ Dongchen Zou
 -	Co-authored [Robust Markov Perfect Equilibrium]( https://python-advanced.quantecon.org/rob_markov_perf.html)
 
 
-
 We also thank [Andrij Stachurski](http://drdrij.com/) for his great web
 skills, and the many others who have contributed suggestions, bug fixes
 or improvements. They include but are not limited to Anmol Bhandari,
