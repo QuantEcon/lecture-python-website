@@ -167,7 +167,7 @@ We would also like to recgonise those who co-authored lectures and code:
 -	Co-authored [Reverse Engineering a la Muth]( https://python-advanced.quantecon.org/muth_kalman.html) 
 -	Co-authored code for [Asset Pricing with Incomplete Markets]( https://python-intro.quantecon.org/harrison_kreps.html) 
 -	Co-authored code for [Markov Perfect Equilibrium](https://python-intro.quantecon.org/markov_perf.html) 
--   Co-authored code for [Robust Markov Perfect Equilibrium](https://python-advanced.quantecon.org/rob_markov_perf.html)
+-	Co-authored code for [Robust Markov Perfect Equilibrium](https://python-advanced.quantecon.org/rob_markov_perf.html)
 -	Co-authored code for [Robustness]( https://python-advanced.quantecon.org/robustness.html)
 
 [Daniel Csaba]( http://danielcsaba.com/)
@@ -212,7 +212,7 @@ We would also like to recgonise those who co-authored lectures and code:
 -	Co-authored [Two Modifications of Mean-Variance Portfolio Theory]( https://python-advanced.quantecon.org/black_litterman.html) 
 -	Co-authored [Von Neumann Growth Model (and a Generalization)]( https://python-advanced.quantecon.org/von_neumann_model.html) 
 -	Co-authored code for [Classical Control with Linear Algebra]( https://python-advanced.quantecon.org/lu_tricks.html) 
--   Co-authored code for [Classical Prediction and Filtering With Linear Algebra](https://python-advanced.quantecon.org/classical_filtering.html)
+-	Co-authored code for [Classical Prediction and Filtering With Linear Algebra](https://python-advanced.quantecon.org/classical_filtering.html)
 
 [Natasha Watkins](https://github.com/natashawatkins)
 -	Co-authored [Application: The Samuelson Multiplier-Accelerator]( https://python-intro.quantecon.org/samuelson.html) 
