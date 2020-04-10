@@ -206,7 +206,6 @@ We would also like to recgonise those who co-authored lectures and code:
 -	Co-authored [Markov Jump Linear Quadratic Dynamic Programming](https://python-advanced.quantecon.org/markov_jump_lq.html)
 -	Co-authored [Production Smoothing via Inventories]( https://python-intro.quantecon.org/lq_inventories.html) 
 
-
 [Balint Szoke]( https://www.balintszoke.com/)
 -	Co-authored [Additive and Multiplicative Functionals]( https://python-advanced.quantecon.org/additive_functionals.html) 
 -	Co-authored [Two Modifications of Mean-Variance Portfolio Theory]( https://python-advanced.quantecon.org/black_litterman.html) 
