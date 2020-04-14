@@ -3,33 +3,43 @@ title: About Lectures
 permalink: /about/
 ---
 
-# About Lectures
+# History
 
-## Overview
+This page collects three lecture series:
 
-Programming, mathematics and statistics are powerful tools for analyzing
-the functioning of economies.
+1. [Python Programming for Quantitative Economics](https://python-programming.quantecon.org/)
+2. [Introductory Quantitative Economics with Python](https://python-intro.quantecon.org/) and
+2. [Advanced Quantitative Economics with Python](https://python-advanced.quantecon.org/)
 
-This lecture series provides a hands-on instruction manual.
+Previously all three were combined in a single site but as the number of
+lectures grew they became hard to navigate. The single site was split into
+three in March 2020.
 
-Topics include
+The breakdown is as the names suggest.  The first series focuses on
+programming and is a prerequisite for both the second and the third.  The
+second series is aimed at (very) advanced undergraduate students and beginning
+graduate students.  The third is for advanced graduate students and
+researchers.
 
--   algorithms and numerical methods for studying economic problems,
+While Thomas Sargent and John Stachurski are listed as coauthors, many people
+have contributed to the lectures.  Credits are give below.
+
+
+## Objective
+
+The lecture series treats
+
+-   algorithms and numerical methods for quantitative economic problems,
 -   related mathematical and statistical concepts, and
 -   basics of coding skills and software engineering.
 
-The intended audience is undergraduate students, graduate students and
-researchers in economics, finance and related fields.
-
-### Python
-
-The coding language for this lecture series is Python.
+As stated above, the coding language for this lecture series is Python.
 
 Note that there's also a related set of [Julia lectures](https://julia.quantecon.org>)
 
 In terms of the differences,
 
--   Python is a general-purpose language featuring a massive user
+-   Python is a general-purpose language featuring a huge user
     community in the sciences and an outstanding scientific ecosystem.
 -   Julia is a more recent language with many exciting features.
 
@@ -41,6 +51,7 @@ entirely in Julia itself.
 
 Python has the advantage of being supported by a vast collection of
 scientific libraries (and being a highly marketable skill).
+
 
 ## Open Source
 
@@ -76,75 +87,6 @@ Another, a more philosophical advantage of open-source software is that
 it conforms to the [scientific ideal of
 reproducibility](https://en.wikipedia.org/wiki/Scientific_method).
 
-## How about Other Languages?
-
-But why don't you use language XYZ?
-
-### MATLAB
-
-While MATLAB has many nice features, it's starting to show its age.
-
-It can no longer match Python or Julia in terms of performance and
-design.
-
-MATLAB is also proprietary, which comes with its own set of
-disadvantages.
-
-Given what's available now, it's hard to find any good reason to invest
-in MATLAB.
-
-Incidentally, if you decide to jump from MATLAB to Python, [this
-cheat-sheet](http://cheatsheets.quantecon.org/) will be useful.
-
-### R
-
-[R](https://cran.r-project.org/) is a very useful open source
-statistical environment and programming language
-
-Its primary strength is its [vast
-collection](https://cran.r-project.org/web/packages) of extension
-packages
-
-Python is more general-purpose than R and hence a better fit for this
-course
-
-Moreover, if there are R libraries you find you want to use, you can now
-call them from within Python or Julia
-
-### C / C++ / Fortran?
-
-Isn't Fortran / C / C++ faster than Python? In which case it must be
-better, right?
-
-This is an outdated view.
-
-First, you can achieve speeds equal to or faster than those of compiled
-languages in Python through features like a just-in-time compilation
--- we'll talk about how later on.
-
-Second, remember that the correct objective function to minimize is
-
-```none
-total time = development time + execution time
-```
-
-In assessing this trade off, it's necessary to bear in mind that
-
--   Your time is a far more valuable resource than the computer's time.
--   Languages like Python are much faster to write and debug in.
--   In any one program, the vast majority of CPU time will be spent
-    iterating over just a few lines of your code.
-
-## Last Word
-
-Writing your entire program in Fortran / C / C++ is best thought of as
-"premature optimization"
-
-On this topic we quote the godfather:
-
-> We should forget about small efficiencies, say about 97% of the time:
-> premature optimization is the root of all evil. -- [Donald
-> Knuth](https://en.wikipedia.org/wiki/Donald_Knuth)
 
 Credits
 -------
@@ -155,7 +97,7 @@ sponsoring organization the Alfred P. Sloan Foundation and our research
 assistants Chase Coleman, Spencer Lyon and Matthew McKay for innumerable
 contributions to the code library and functioning of the website.
 
-We would also like to recgonise those who co-authored lectures and code:
+We also recognize those who co-authored lectures and code:
 
 [Anmol Bhandari]( http://www.bhandarianmol.com/)
 -	Co-authored [Fluctuating Interest Rates Deliver Fiscal Insurance]( https://python-advanced.quantecon.org/amss2.html)
