@@ -8,7 +8,7 @@ permalink: /about/
 This page collects three lecture series:
 
 1. [Python Programming for Economics and Finance](https://python-programming.quantecon.org/)
-2. [Quantitative Economics with Python](https://python.quantecon.org/) and
+2. [Quantitative Economics with Python](https://python-intro.quantecon.org/) and
 2. [Advanced Quantitative Economics with Python](https://python-advanced.quantecon.org/)
 
 Previously all three were combined in a single site but as the number of
